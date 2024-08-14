@@ -12,10 +12,7 @@ frontend/.pnp
 frontend/.pnp.js
 
 # testing
-frontend//coverage
-
-# production
-frontend//build
+frontend/coverage
 
 # misc
 frontend/.DS_Store

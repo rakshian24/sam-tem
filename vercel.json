@@ -1,12 +1,4 @@
 {
-	"rewrites": [
-	  {
-		"source": "/api/(.*)",
-		"destination": "/api/index.ts"
-	  },
-	  {
-		"source": "/(.*)",
-		"destination": "/frontend/build/$1"
-	  }
-	]
-  }
+	"version": 2,
+	"rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+}
